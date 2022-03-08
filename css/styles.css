@@ -1,0 +1,259 @@
+body {
+	width: 100%;
+	margin: auto;
+	background-color: #FFC166;
+}
+
+nav {
+	background-color: #E79037;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+nav > div {
+	background-color: #E79037;
+	display: inline;
+	list-style: none;
+}
+
+nav > div > a {
+	/*border-left: 2px solid white;
+	border-right: 2px solid white;*/
+	text-decoration:NONE;
+	color: white;
+	display:inline-block;
+	margin: 0 1%;
+	font-size: 150%;
+}
+
+div > p img {
+	width: 300px;
+	height: 160px;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+	color: #E79037;
+	font-size: 400%;
+}
+
+div > p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#copyright {
+	display:flex;
+	justify-content:center;
+	margin-bottom:0%;
+	margin-top:2%;
+	font-size: 100%;
+}
+
+#presentation {
+	text-align: center;
+	color: #E79037;
+	font-size: 100%;
+}
+
+ul {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	color: #E79037;
+	font-size: 125%;
+}
+
+.carte1 {
+	width: 25%;
+	height: 15%;
+	margin: auto;
+	float: left;
+	max-height: 325px;
+}
+
+.carte2 {
+	width: 25%;
+	height: 15%;
+	margin:auto;
+	float: right;
+}
+
+h3, h2, h1, #presentation, .nomchat, .description, li, #faq >p, #faq >a, #emploi > p{
+	font-family:"TravelerNote" ;
+}
+
+.nomchat{
+	font-size: 125%;
+	color: #E79037;
+}
+
+.description{
+	font-size: 120%;
+	color: #E79037;
+}
+
+@font-face {
+    font-family: "TravelerNote";
+    src: url(TravelerNote.otf);
+}
+
+li {
+	font-size: 100%;
+}
+
+#faq{
+	margin: auto;
+	width: 60%;
+	text-align: left;
+}
+
+#faq h3{
+	float: left;
+	font-size: 45px;
+}
+
+#faq > p, a{
+	font-size: 24px;
+}
+
+#emploi {
+	margin: auto;
+	width: 90%;
+	text-align: center;
+}
+
+#emploi > img {
+	align-items: center;
+}
+
+#emploi > h3 {
+	font-size: 200%;
+	text-align: left;
+}
+
+#emploi > ul, #emploi > p{
+	text-align: left;
+	font-size: 150%;
+}
+
+footer {
+	bottom: 0px;
+	border: 0px strong black;
+	background-color: #E79037;
+}
+
+#locabody, #conbody {
+	background-color: #FFC166;
+}
+
+/*header {
+	color: black;
+	background-color: darkorange;
+}*/
+
+/*article {
+	background-color: yellow;
+}*/
+
+h1 {
+    text-align: center;
+    font-family: "TravelerNote";
+}
+
+fieldset, aside {
+    padding-top: auto;
+    font-family: "TravelerNote";
+    font-size: 25px;
+    width: 90%;
+    margin-left: 3%;
+}
+
+#bar {
+	margin-left: 20%;
+	height: 300%;
+	/*margin-right: auto;*/
+	float: right;
+}
+
+#res{
+	text-decoration:NONE;
+	color: white;
+	border:  2px solid black;
+	background-color: #E79037;
+	text-align: center;
+	margin-left: 44%;
+	font-size: 100%;
+}
+
+#hor{
+	margin-left: 15%;
+	margin-right: 68%;
+}
+
+#text{
+	
+	background-color: #E79037;
+}
+
+#hort{
+	margin-right: 68%;
+	margin-left: 10%;
+}
+
+#calen {
+	height: 60%;
+	width : 150%;
+	/*float:right;*/
+	margin-right: 20%;
+	margin-top: 10%;
+}
+
+#titre1 {
+	text-align: center;
+	color: #E79037;
+	font-size: 350%;
+}
+
+.obligatoire {
+	color: red;
+}
+
+#demande {
+	width: 90%;
+	height: 120px;
+	resize: none;
+}
+
+legend {
+	font-size: 150%;
+	color: #E79037;
+}
+
+label {
+	font-size: 100%;
+}
+
+ul > img {
+	width: 25%;
+	height: 25%;
+}
+
+#text, #hort {
+	font-family: "TravelerNote";
+	font-size: 150%;
+}
+
+#hort{
+	color: #E79037;
+}
+
+#text {
+	color: #FFC166;
+}
