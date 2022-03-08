@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Louer un chat</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body id="locabody">
+	<header id="locaheader">
+		<nav>
+			<div>
+				<a href="restaurant.html"><span class="menu"></span>Le restaurant</a>
+				
+			</div>
+			<div>
+				<a href="carte.html"><span class="menu"></span>La carte</a>
+				
+			</div>
+			<div>
+				<a href="chats.html"><span class="menu"></span>Nos chats</a>
+				
+			</div>
+			<div>
+				<a href="location.html"><span class="menu"></span>Location</a>
+			</div>
+			<div>
+				<a href="emploi.html"><span class="menu"></span>Offre d'emploi</a>
+				
+			</div>
+			<div>
+				<a href="FAQ.html"><span class="menu"></span>FAQ</a>
+				
+			</div>
+			<div>
+				<a href="equipe.html"><span class="menu"></span>Notre équipe</a>
+			</div>
+			<div>
+				<a href="contact.html"><span class="menu"></span>Nous contacter</a>
+			</div>
+			<div>
+				<a href="engagement.html"><span class="menu"></span>Nos engagements</a>
+			</div>
+		</nav>
+		<h2>Location</h2>
+	</header>
+	<main>
+		<article id="locarticle">
+			<br><br>
+			<fieldset>
+				<legend>Par Formulaire :</legend>
+					<form action="sendToMySecondYearOfBUT.php" method="get">
+						<div>	
+							<label for="choosecat">Choisir un ou deux chats<span class="obligatoire">*</span> :</label>
+							<select multiple id="pet-select" name="choosecat" required>
+								<option value="">---------</option>
+								<option value="1">Duchesse</option>
+								<option value="2">Marie</option>
+								<option value="3">Toulouse</option>
+								<option value="4">Berlioz</option>
+								<option value="5">O'Malley</option>
+								<option value="6">Pattenrond</option>
+								<option value="7">Garfield</option>
+								<option value="8">Karin</option>
+							</select>
+						</div>
+						<br>
+						<div>	
+							<label for="loc">Date de location<span class="obligatoire">*</span> :</label>
+							<input id="loc" name="dateloc" type="date" required>
+						</div>
+						<br>
+						<div>	
+							<label for="horaire">Horaire<span class="obligatoire">*</span> :</label>
+							<select required id="horaire" name="hor-select">
+								<option value="">---------</option>
+								<option value="1">14 h</option>
+								<option value="2">14 h 30</option>
+								<option value="3">15 h</option>
+								<option value="4">15 h 30</option>
+								<option value="5">16 h</option>
+								<option value="6">16 h 30</option>
+								<option value="7">17 h</option>
+								<option value="8">17 h 30</option>
+								<option value="9">18 h</option>
+							</select>
+						</div>
+						<br>
+						<div>
+							<label for="name">Nom<span class="obligatoire">*</span> :</label>
+							<input id="name" name="urname" type="text" required>
+						</div>
+						<br>	
+						<div>	
+							<label for="surname">Prénom<span class="obligatoire">*</span> :</label>
+							<input id="surname" name="ursurname" type="text" required>
+						</div>
+						<br>
+						<div>	
+							<label for="condition">Vous acceptez les <a href="cgu.html">conditions générales d'utilisation</a> du bar<span class="obligatoire">*</span> :</label>
+							<input id="condition" name="ourcondition" type="checkbox" required>
+						</div>		
+						<br>
+						<div>
+							  <input type="submit" value="Envoyer">
+						</div>
+					</form>	
+			</fieldset>
+		</article>
+		<aside>
+			<p><u>ou par téléphone au : 04 89 04 03 00</u></p>				
+		</aside>
+	</main>
+	<footer>
+		<p id="copyright"><strong>© Copyright Cafélin 2021-2022</strong></p>
+	</footer>
+</body>
+</html>

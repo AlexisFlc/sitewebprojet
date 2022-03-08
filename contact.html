@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Nous contacter</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+	<header>
+		<nav>
+			<div>
+				<a href="restaurant.html"><span class="menu"></span>Le restaurant</a>
+				
+			</div>
+			<div>
+				<a href="carte.html"><span class="menu"></span>La carte</a>
+				
+			</div>
+			<div>
+				<a href="chats.html"><span class="menu"></span>Nos chats</a>
+				
+			</div>
+			<div>
+				<a href="location.html"><span class="menu"></span>Location</a>
+			</div>
+			<div>
+				<a href="emploi.html"><span class="menu"></span>Offre d'emploi</a>
+				
+			</div>
+			<div>
+				<a href="FAQ.html"><span class="menu"></span>FAQ</a>
+				
+			</div>
+			<div>
+				<a href="equipe.html"><span class="menu"></span>Notre équipe</a>
+			</div>
+			<div>
+				<a href="contact.html"><span class="menu"></span>Nous contacter</a>
+			</div>
+			<div>
+				<a href="engagement.html"><span class="menu"></span>Nos engagements</a>
+			</div>
+
+		</nav>
+		<h2>Nous contacter</h2>
+	</header>
+	<main>
+		<article>
+			<br><br>
+			<fieldset>
+				<legend>Par Formulaire :</legend>
+					<form action="sendToMySecondYearOfBUT.php" method="get">
+						<div>
+							<label for="name">Nom<span class="obligatoire">*</span> :</label>
+							<input id="name" name="urname" type="text" required>
+						</div>
+						<br>	
+						<div>	
+							<label for="surname">Prénom<span class="obligatoire">*</span> :</label>
+							<input id="surname" name="ursurname" type="text" required>
+						</div>							
+						<br>
+						<div>	
+							<label for="mail">Adresse mail<span class="obligatoire">*</span> :</label>
+							<input id="mail" name="urmail" type="email" placeholder="yourmail@domain.com" required>
+						</div>
+						<br>
+						<div>
+							<label for="demande">Dîtes-nous tout<span class="obligatoire">*</span> :</label>
+							<p>
+							<textarea required id ="demande" name="urdemande" placeholder="Qu'y a-t-il ?"></textarea>
+							</p>
+						</div>	
+						<br>		
+						<div>	
+							<label for="condition">Vous acceptez d'être recontacté par Cafélin<span class="obligatoire">*</span> :</label>
+							<input id="condition" name="ourcondition" type="checkbox" required>
+						</div>						
+						<br>
+						<div>	
+							<label for="condition">Vous acceptez les <a href="cgu.html">conditions générales d'utilisation</a> du bar<span class="obligatoire">*</span> :</label>
+							<input id="condition" name="ourcondition" type="checkbox" required>
+						</div>		
+						<br>
+						<div>
+							  <input type="submit" value="Envoyer">
+						</div>
+					</form>	
+			</fieldset>
+		</article>
+		<aside>
+			<p><u>ou par téléphone au : 04 89 04 03 00</u></p>				
+		</aside>
+	</main>
+	<footer>
+		<p id="copyright"><strong>© Copyright Cafélin 2021-2022</strong></p>
+	</footer>
+</body>
+</html>
